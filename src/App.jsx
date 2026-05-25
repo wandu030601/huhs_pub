@@ -474,7 +474,7 @@ export default function App() {
           </section>
 
           <footer>
-            <p>맛있게 준비하겠습니다. 감사합니다!</p>
+            <p>조리는 주문 순서대로 진행됩니다</p>
           </footer>
         </div>
       </div>
