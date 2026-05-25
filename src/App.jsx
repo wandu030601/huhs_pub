@@ -424,11 +424,27 @@ export default function App() {
               ))}
             </div>
 
-            <div className="account-box">
-              <p>계좌이체 가능</p>
-              <strong>카카오뱅크 7942-33-15855</strong>
+            <div
+              style={{
+              marginTop: "12px",
+              padding: "14px",
+              borderRadius: "14px",
+              backgroundColor: "#fff7e8",
+              border: "1px solid #e3c9a6",
+              textAlign: "center",
+              fontWeight: "700",
+              color: "#4a2415",
+              }}
+            >
+  
+              <div style={{ fontSize: "14px", marginBottom: "4px" }}>
+                계좌번호
+              </div>
+              <div style={{ fontSize: "18px", fontWeight: "900" }}>
+                카카오뱅크 7942-33-15855
+              </div>
             </div>
-            
+
             <div className="order-note">
               <p className="order-note-title">
                 인원수에 따라 <span>메인 메뉴 최소 주문 수량</span>이 적용됩니다.
