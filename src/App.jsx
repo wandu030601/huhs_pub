@@ -6,7 +6,7 @@ import { image } from "framer-motion/client";
 const rules = [
   { icon: <Banknote size={20} />, title: "모든 메뉴는 선불입니다" },
   { icon: <Clock size={20} />, title: "이용 시간은 2시간입니다" },
-  { icon: <DoorOpen size={20} />, title: "전원 자리를 비우면 퇴장으로 간주됩니다" },
+  { icon: <DoorOpen size={20} />, title: "자리를 15분 이상 비우면 퇴장으로 간주됩니다" },
   { icon: <AlertCircle size={20} />, title: "결제는 계좌이체만 가능합니다" },
 ];
 
